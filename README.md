@@ -9,16 +9,24 @@ no município de São Paulo, usando dados públicos do DATASUS (SINAN/TabNet).
 - Mostra a variação percentual de um ano para o outro
 
 ## Como usar
-1. Coloque o CSV na pasta `dados/` com o nome `sifilis_congenita_sp.csv`
-2. Rode: `python analise.py`
+
+1. Tenha o Python instalado no computador.
+2. Instale a biblioteca necessária:
+
+   pip install -r requirements.txt
+
+3. Coloque o arquivo CSV na pasta `dados/` com o nome `sifilis_congenita_sp.csv`.
+4. Execute o programa:
+
+   python analise.py
 
 ## Observações
 - 2025 ficou de fora porque os dados vão só até junho de 2025 (ano incompleto).
 - Dados sujeitos a revisão pelo Ministério da Saúde.
 
 ## Próximos passos
-- Gráficos com matplotlib
-- Comparação com a zona norte (CRS Norte) usando dados da Prefeitura de SP
+- Comparar os dados de outras regiões de São Paulo
+- Continuar praticando Python e análise de dados
 
 ## Gráfico dos casos
 

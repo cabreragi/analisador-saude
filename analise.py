@@ -40,8 +40,6 @@ for i, ano in enumerate(anos):
         anterior = casos[anos[i - 1]]
         variacao = (casos[ano] - anterior) / anterior * 100
         print(ano, casos[ano], f"{variacao:.1f}%")
-casos_inicio = casos[2016]
-casos_fim = casos[2024]
 
 valores_anos = [casos[a] for a in anos]
 
