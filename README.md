@@ -19,3 +19,9 @@ no município de São Paulo, usando dados públicos do DATASUS (SINAN/TabNet).
 ## Próximos passos
 - Gráficos com matplotlib
 - Comparação com a zona norte (CRS Norte) usando dados da Prefeitura de SP
+
+## Gráfico dos casos
+
+O gráfico abaixo mostra a quantidade de casos confirmados de sífilis congênita entre 2016 e 2024.
+
+![Gráfico dos casos](grafico_casos.png)
